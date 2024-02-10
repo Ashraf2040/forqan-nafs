@@ -24,7 +24,7 @@ export default function Login() {
        await axios.post("api/login", user);
     
       toast.success("Login success");
-      router.push("/");
+      router.push("/progress");
       
 
       const userSent = JSON.stringify(user)

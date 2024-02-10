@@ -9,14 +9,14 @@ const StartScreen = ({ numQuestions, dispatch }) => {
       </h2>
       <h3>{numQuestions} Questions to start your Math Mastery</h3>
       <div className="flex ">
-        <input
+        {/* <input
           type="email"
           className="border-2 text-2xl text-theme outline-none font-semibold px-8 rounded-l-md  min-w-60
      "
           placeholder="Enter Your E-mail"
-        />
+        /> */}
         <button
-          className="btn1 btn-ui text-white  bg-theme rounded-r-full"
+          className="btn1 btn-ui text-white  bg-theme rounded-full"
           onClick={() => dispatch({ type: "start" })}
         >
           Let’s Start
