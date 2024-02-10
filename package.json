@@ -1,0 +1,36 @@
+{
+  "name": "quiz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "json-server --watch src/data/questions.json --port 8000"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "json-server": "^1.0.0-alpha.23",
+    "lucide-react": "^0.323.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.1",
+    "next": "14.1.0",
+    "next-auth": "^4.24.5",
+    "react": "^18",
+    "react-cookie": "^7.0.2",
+    "react-dom": "^18",
+    "react-toastify": "^10.0.4",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
